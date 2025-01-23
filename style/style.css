@@ -211,6 +211,7 @@ text-align: left;}
     font-weight: 900;
     color: white;
     cursor: pointer;
+    margin: 3rem 0;
 }
 .arrow-btn button:hover{
     padding:5px 24px;
@@ -223,6 +224,78 @@ text-align: left;}
     cursor: pointer;
 }
 
+/* Our-Stories Our-Stories Our-Stories */
+.our-head{
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+.Our-Stories{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Image/bg.png);
+    background: rgb(224, 142, 142);
+    background: linear-gradient(0deg, rgb(216, 163, 65) 0%, rgba(250,251,247,1) 62%, rgba(255,253,248,1) 97%);
+    margin: 1.5rem;
+}
+.story-card{
+    display: flex;
+    width: 1095px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.story-card-clmn{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.story-card-clmn h3{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+.story-card-clmn p{margin-top: 4rem;
+    margin-left: 2rem;
+   
+}
+.story-card-clmn2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.story-mini-card{
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+}
+.Our-Stories img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.story-mini-card h3{
+    margin: 30px;
+}
+.card-date{
+    background-color: rgb(149, 178, 38);
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -18px;
+}
+.view-btn{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.view-btn button{
+    padding: 10px 59px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
 
 
 /* Small devise Small devise Small devise Small devise */
