@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5{
+    font-family: Quicksand;
+}
+p{
+    font-family: Raleway;
+    color: rgb(128, 128, 128);
+}
+.text-color{
+    color: #FEA301;
+}
+.text-color2{
+    color: rgb(1, 172, 253);
+}
+
+
+/* Header section */
+.flex{
+    display: flex;
+}
+.nav-logo{
+    font-family: Quicksand;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.nav-li li{
+    list-style: none;
+    margin: 0 .75rem;
+}
+.nav-li a{
+    text-decoration: none;
+    
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 13.28px;
+}
+.home a{
+    color: rgb(254, 163, 1);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about a{
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.Admission a{
+    color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;}
+.nav-btn{
+    margin: 0;
+}
+.nav-btn button{
+    padding: 15.117px 57px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(254, 163, 1);
+    font-weight: 600;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    
+}
+.nav-btn button:hover{
+    padding: 15.117px 57px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(254, 163, 1);
+    font-weight: 600;
+    font-size: 19px;
+    color: rgb(90, 86, 86);
+    font-family: Quicksand;
+    cursor: pointer;
+}
+.nav-btn img{
+    display: none;
+    width: 5rem;
+    height: 4rem;
+}
+
+
+/* banner banner banner banner banner banner banner banner  */
+
+.banner{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 47px;
+    font-family: Quicksand;
+}
+.banner-text{
+    display: flex;
+    align-items: center;
+}
+.banner-text h1{
+    font-size: 3.31rem;
+    
+}
+.banner-text p{
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+.banner-text button{
+    padding: 10px 44px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+   
+
+}
+.banner-text button:hover{
+    padding: 10px 44px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(231, 71, 71);
+    background-color: rgb(17, 17, 17);
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+/* Standard Curriculum Standard CurriculumStandard Curriculum */
+.Standard-Curriculum{
+    display: flex;
+    flex-direction: column;
+}
+.h1-text{
+    font-size: 2.7rem;
+    margin-top: 3.8rem;
+    margin-bottom: 5rem;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    justify-content: space-between;
+    width: 1160px;
+}
+.card-box1, .card-box2, .card-box3{
+    display: flex;
+    flex-direction: column;
+     padding: 40px;
+    border-radius: 20px;
+    gap: 20px;
+}
+.card-box1{
+    background: linear-gradient(180.00deg, rgb(176, 191, 212),rgba(255, 255, 255, 0) 40%),rgb(250, 242, 242)
+}
+.card-box1 h3{
+    color: rgb(228, 161, 75);
+    cursor: pointer;
+}
+.card-box1 h3:hover{
+    color: rgb(212, 138, 40);
+}
+.card-box2{
+    background: linear-gradient(180.00deg, rgb(218, 138, 200),rgba(255, 255, 255, 0) 40%),rgb(250, 242, 242);
+    gap:22px;
+}
+.card-box2 h3{
+    color: rgb(240, 170, 0);
+    cursor: pointer;
+}
+.card-box2 h3:hover{
+    color: rgb(180, 128, 8);
+}
+.card-box3{
+    background: linear-gradient(180.00deg, rgb(152, 240, 159),rgba(255, 255, 255, 0) 40%),rgb(250, 242, 242);
+    
+    
+}
+.card-box3 h3{
+    color: rgb(135, 0, 255);
+}
+.card-box3 h3:hover{
+    color: rgb(82, 5, 150);
+    cursor: pointer;
+}
+.arrow-btn button{
+    padding:5px 24px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FEA301;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+.arrow-btn button:hover{
+    padding:5px 24px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FEA301;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+
+
+/* Small devise Small devise Small devise Small devise */
+
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        width: auto;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        margin: 5px 15px;
+    }
+    
+    .nav-li li, .nav-btn button{
+        display: none;
+    }
+    .nav-btn img{
+        display: flex;
+    }
+    /* Standard CurriculumStandard Curriculum */
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+    }
+    .Standard-Curriculum{
+        margin: 20px;
+    }
+     
+}
