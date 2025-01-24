@@ -149,6 +149,7 @@ text-align: left;}
 .Standard-Curriculum{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .h1-text{
     font-size: 2.7rem;
@@ -232,6 +233,7 @@ text-align: left;}
 .Our-Stories{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: url(../Image/bg.png);
     background: rgb(224, 142, 142);
     background: linear-gradient(0deg, rgb(216, 163, 65) 0%, rgba(250,251,247,1) 62%, rgba(255,253,248,1) 97%);
