@@ -235,7 +235,7 @@ text-align: left;}
     background-image: url(../Image/bg.png);
     background: rgb(224, 142, 142);
     background: linear-gradient(0deg, rgb(216, 163, 65) 0%, rgba(250,251,247,1) 62%, rgba(255,253,248,1) 97%);
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
 }
 .story-card{
     display: flex;
@@ -245,8 +245,17 @@ text-align: left;}
     padding: 10PX;
 }
 .story-card-clmn{
+    display: grid;
     background-color: aliceblue;
     border-radius: 20px;
+}
+.card-clmn-date {
+    background-color: rgb(149, 178, 38);
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -18px;
+    width: 145px;
 }
 .story-card-clmn h3{
     font-size: 1.5rem;
@@ -276,6 +285,7 @@ text-align: left;}
 .Our-Stories img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }
 .story-mini-card h3{
     margin: 30px;
@@ -299,6 +309,81 @@ text-align: left;}
     font-size: 20px;
     color: white;
     font-weight: 700;
+    cursor: pointer;
+
+}
+.view-btn button:hover{
+    padding: 10px 59px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 239, 239);
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+    cursor: pointer;
+
+}
+/* Footer Footer Footer Footer Footer Footer Footer Footer Footer  */
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    background-color: rgb(1, 172, 253);
+}
+.f-container img, h1{
+    margin: 0;
+    padding: 0;
+    /* padding: 1.2rem; */
+}
+.f-container p{
+    margin-top: 2rem;
+    font-size: 1.25rem ;
+    color: white;
+    font-weight: 400;
+}
+.kids-edu {
+    display: flex;
+}
+.kids-edu h1{
+    font-size: 2.6rem;
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+.f-container2 ul{
+    padding: 0;
+}
+.f-container2 h2{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+.f-container2 li{
+    list-style: none;
+    padding: 0;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    margin-top: 1.4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+}
+.f-container3 ul{
+    display: flex;
+    padding: 0;
+    gap: 6px;
+    margin-top: 2.5rem;
+
+}
+.f-container3 h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+
+}
+.f-container3 li{
+        list-style: none;
+        
 }
 
 
@@ -369,5 +454,16 @@ text-align: left;}
 }
 .Our-Stories img{
     width: 100%;
+}
+/* Footer Footer */
+.footer-area{
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 05rem;
+    gap: 2rem;
+}
+.f-container2, .f-container3{
+    padding: 0;
+    margin: 0;
 }
 }
