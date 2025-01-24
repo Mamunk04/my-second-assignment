@@ -239,9 +239,10 @@ text-align: left;}
 }
 .story-card{
     display: flex;
-    width: 1095px;
+    /* width: 1095px; */
     margin: 0 auto;
     gap: 10px;
+    padding: 10PX;
 }
 .story-card-clmn{
     background-color: aliceblue;
@@ -259,6 +260,9 @@ text-align: left;}
 .story-card-clmn2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+#hide{
+    display: none;
 }
 .story-mini-card{
     display: grid;
@@ -303,6 +307,15 @@ text-align: left;}
 @media screen and (max-width: 576px) {
     .nav-bar{
         width: auto;
+        border-bottom: 2px solid #FEA301;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+        m
+    }
+    .nav-bar h1{
+        display: none
     }
     .banner img{
         width: 100%;
@@ -313,7 +326,12 @@ text-align: left;}
         width: auto;
         margin: 5px 15px;
     }
-    
+    .banner-text button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
     .nav-li li, .nav-btn button{
         display: none;
     }
@@ -329,5 +347,27 @@ text-align: left;}
     .Standard-Curriculum{
         margin: 20px;
     }
+    .arrow-btn{
+        display: none;
+    }
      
+    /* Our StoriesOur StoriesOur StoriesOur StoriesOur StoriesOur Stories */
+    .Our-Stories{
+        margin: 0 auto;
+    }
+    .story-card{
+        flex-direction: column;
+    }
+    #hide{
+        display: block;
+    }
+    .story-card-clmn{display: none;}
+    .story-card-clmn2 {
+                        grid-template-columns: repeat(2, 1FR);
+                        width: 100%;
+                        margin: 0 auto;
+}
+.Our-Stories img{
+    width: 100%;
+}
 }
