@@ -359,7 +359,7 @@ text-align: left;}
         flex-direction: column;
     }
     #hide{
-        display: block;
+        display: grid;
     }
     .story-card-clmn{display: none;}
     .story-card-clmn2 {
